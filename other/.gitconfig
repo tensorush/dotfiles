@@ -1,0 +1,57 @@
+[alias]
+    d   = diff
+    b   = branch
+    c   = commit
+    s   = status
+    co  = checkout
+    cp  = cherry-pick
+    dc  = diff --cached
+    a   = commit --amend
+    pom = push origin master
+    l   = log --pretty=custom
+    rlc = reset --hard HEAD~1
+    ulc = reset --soft HEAD~1
+    ca  = !git add -A && git commit
+    sl  = shortlog --summary --numbered
+    i   = update-index --assume-unchanged
+    dfs = diff --staged --ws-error-highlight=new,old
+    g   = log --oneline --graph --decorate --pretty=custom
+    df  = diff --color-words=. --ws-error-highlight=new,old
+
+[color "branch"]
+    local = green
+    remote = yellow
+    current = green bold
+
+[color "diff"]
+    old = red
+    new = green
+    meta = yellow
+    frag = magenta
+
+[color "status"]
+    added = green reverse
+    untracked = red reverse
+    changed = yellow reverse
+
+[core]
+    abbrev = 12
+    editor = hx
+
+[diff "bin"]
+    textconv = hexdump -v -C
+
+[pretty]
+    custom = "%C(magenta)%h%C(red)%d %C(yellow)%ar %C(green)%s %C(yellow)(%an)"
+    #                     │        │            │            │             └─ author name
+    #                     │        │            │            └─ message
+    #                     │        │            └─ date (relative)
+    #                     │        └─ decorations (branch, heads or tags)
+    #                     └─ hash (abbreviated)
+
+[push]
+    followTags = true
+
+[user]
+	name = Zhora Trush
+	email = tensorush@gmail.com
