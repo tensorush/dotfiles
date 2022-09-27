@@ -37,6 +37,7 @@
 [core]
     abbrev = 12
     editor = hx
+    excludesfile = ~/.gitignore
 
 [diff "bin"]
     textconv = hexdump -v -C
