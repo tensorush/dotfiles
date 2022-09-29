@@ -1,4 +1,5 @@
 add_newline = false
+command_timeout = 10_000
 
 [git_status]
 conflicted = " 🐗 "
