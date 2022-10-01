@@ -9,7 +9,7 @@
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
 # import:
-  # - /path/to/alacritty.yml
+# - /path/to/alacritty.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -79,7 +79,7 @@ window:
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  startup_mode: Fullscreen
+  startup_mode: Maximized
 
   # Window title
   title: Alacritty
@@ -158,7 +158,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 16.0
+  size: 12.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -445,7 +445,7 @@ shell:
 #
 # Directory the shell is started in. If this is unset, or `None`, the working
 # directory of the parent process will be used.
-working_directory: None
+working_directory: C:\Users\User\Desktop\rep
 
 # Send ESC (\x1b) before characters when alt is pressed.
 alt_send_esc: true
@@ -769,7 +769,7 @@ key_bindings:
 
   # Vi Mode
   - { key: Space, mods: Shift|Control, mode: ~Search, action: ToggleViMode }
-  - { key: Space, mods: Shift|Control, mode: Vi|~Search, action: ScrollToBottom }
+  # - { key: Space, mods: Shift|Control, mode: Vi|~Search, action: ScrollToBottom }
   - { key: Escape, mode: Vi|~Search, action: ClearSelection }
   - { key: I, mode: Vi|~Search, action: ToggleViMode }
   - { key: I, mode: Vi|~Search, action: ScrollToBottom }
@@ -790,7 +790,7 @@ key_bindings:
   - { key: V, mods: Control, mode: Vi|~Search, action: ToggleBlockSelection }
   - { key: V, mods: Alt, mode: Vi|~Search, action: ToggleSemanticSelection }
   - { key: Return, mode: Vi|~Search, action: Open }
-  - { key: Z, mode: Vi|~Search, action: CenterAroundViCursor }
+  # - { key: Z, mode: Vi|~Search, action: CenterAroundViCursor }
   - { key: K, mode: Vi|~Search, action: Up }
   - { key: J, mode: Vi|~Search, action: Down }
   - { key: H, mode: Vi|~Search, action: Left }

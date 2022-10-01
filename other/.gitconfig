@@ -12,7 +12,7 @@
     l   = log --pretty=custom
     rlc = reset --hard HEAD~1
     ulc = reset --soft HEAD~1
-    ca  = !git add -A && git commit
+    ac  = !git add -A && git commit
     sl  = shortlog --summary --numbered
     i   = update-index --assume-unchanged
 	su  = submodule update --init --recursive

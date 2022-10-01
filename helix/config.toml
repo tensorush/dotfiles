@@ -5,9 +5,7 @@ mouse = false
 rulers = [100]
 true-color = true
 cursorline = true
-auto-completion = true
 line-number = "relative"
-completion-trigger-len = 2
 
 [editor.cursor-shape]
 insert = "bar"
@@ -17,12 +15,8 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
-[editor.indent-guides]
-render = true
-character = "╎"
-
 [editor.lsp]
 display-messages = true
 
-[editor.search]
-smart-case = true
+[keys.normal]
+"S-tab" = "jump_backward"
