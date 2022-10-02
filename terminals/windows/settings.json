@@ -1,0 +1,155 @@
+{
+    "theme": "dark",
+    "language": "en-US",
+    "alwaysShowTabs": false,
+    "copyFormatting": "none",
+    "launchMode": "fullscreen",
+    "tabSwitcherMode": "disabled",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{aab79973-318f-43b6-a9bc-b4096493753f}",
+    "actions": [
+        {
+            "command": "find",
+            "keys": "ctrl+f"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "hidden": false,
+            "cursorShape": "vintage",
+            "scrollbarState": "hidden",
+            "font": {
+                "face": "Cascadia Mono PL",
+                "size": 12
+            },
+            "startingDirectory": "%USERPROFILE%\\Desktop"
+        },
+        "list": [
+            {
+                "name": "Nushell",
+                "colorScheme": "Gruvbox Dark",
+                "guid": "{aab79973-318f-43b6-a9bc-b4096493753f}"
+            },
+            {
+                "name": "Ubuntu",
+                "colorScheme": "Treehouse",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}"
+            },
+            {
+                "name": "Command Prompt",
+                "colorScheme": "AlienBlood",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}"
+            },
+            {
+                "name": "Windows PowerShell",
+                "colorScheme": "Wryan",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "AlienBlood",
+            "black": "#112616",
+            "red": "#7f2b27",
+            "green": "#2f7e25",
+            "yellow": "#717f24",
+            "blue": "#2f6a7f",
+            "purple": "#47587f",
+            "cyan": "#327f77",
+            "white": "#647d75",
+            "brightBlack": "#3c4812",
+            "brightRed": "#e08009",
+            "brightGreen": "#18e000",
+            "brightYellow": "#bde000",
+            "brightBlue": "#00aae0",
+            "brightPurple": "#0058e0",
+            "brightCyan": "#00e0c4",
+            "brightWhite": "#73fa91",
+            "background": "#0f1610",
+            "foreground": "#637d75",
+            "selectionBackground": "#1d4125",
+            "cursorColor": "#73fa91"
+        },
+        {
+            "name": "Gruvbox Dark",
+            "black": "#1e1e1e",
+            "red": "#be0f17",
+            "green": "#868715",
+            "yellow": "#cc881a",
+            "blue": "#377375",
+            "purple": "#a04b73",
+            "cyan": "#578e57",
+            "white": "#978771",
+            "brightBlack": "#7f7061",
+            "brightRed": "#f73028",
+            "brightGreen": "#aab01e",
+            "brightYellow": "#f7b125",
+            "brightBlue": "#719586",
+            "brightPurple": "#c77089",
+            "brightCyan": "#7db669",
+            "brightWhite": "#e6d4a3",
+            "background": "#1e1e1e",
+            "foreground": "#e6d4a3",
+            "selectionBackground": "#e6d4a3",
+            "cursorColor": "#e6d4a3"
+        },
+        {
+            "name": "Treehouse",
+            "black": "#321300",
+            "red": "#b2270e",
+            "green": "#44a900",
+            "yellow": "#aa820c",
+            "blue": "#58859a",
+            "purple": "#97363d",
+            "cyan": "#b25a1e",
+            "white": "#786b53",
+            "brightBlack": "#433626",
+            "brightRed": "#ed5d20",
+            "brightGreen": "#55f238",
+            "brightYellow": "#f2b732",
+            "brightBlue": "#85cfed",
+            "brightPurple": "#e14c5a",
+            "brightCyan": "#f07d14",
+            "brightWhite": "#ffc800",
+            "background": "#191919",
+            "foreground": "#786b53",
+            "selectionBackground": "#786b53",
+            "cursorColor": "#fac814"
+        },
+        {
+            "name": "Wryan",
+            "black": "#333333",
+            "red": "#8c4665",
+            "green": "#287373",
+            "yellow": "#7c7c99",
+            "blue": "#395573",
+            "purple": "#5e468c",
+            "cyan": "#31658c",
+            "white": "#899ca1",
+            "brightBlack": "#3d3d3d",
+            "brightRed": "#bf4d80",
+            "brightGreen": "#53a6a6",
+            "brightYellow": "#9e9ecb",
+            "brightBlue": "#477ab3",
+            "brightPurple": "#7e62b3",
+            "brightCyan": "#6096bf",
+            "brightWhite": "#c0c0c0",
+            "background": "#101010",
+            "foreground": "#999993",
+            "selectionBackground": "#4d4d4d",
+            "cursorColor": "#9e9ecb"
+        }
+    ]
+}
