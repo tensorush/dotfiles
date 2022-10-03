@@ -1,24 +1,46 @@
 [alias]
     d   = diff
+    pl  = pull
+    ps  = push
+    f   = fetch
+    m   = merge
     b   = branch
     c   = commit
-    s   = status
+    rb  = rebase
+    rl  = reflog
+    r   = remote
     co  = checkout
-    cb  = checkout -b
+    fp  = fetch -p
+    up  = upstream
+    ba  = branch -a
+    bd  = branch -d
+    bD  = branch -D
+    sp  = stash pop
+    sh  = stash push
+    s   = status -sb
+    ap  = add --patch
+    cob = checkout -b
     cp  = cherry-pick
     dc  = diff --cached
+    plr = pull --rebase
+    rbs = rebase --skip
     a   = commit --amend
+    pb  = push -u origin
+    rbi = rebase -i @{u}
+    rbc = rebase --continue
     pom = push origin master
+    rlc = reset --hard HEAD^
+    ulc = reset --soft HEAD^
     l   = log --pretty=custom
-    rlc = reset --hard HEAD~1
-    ulc = reset --soft HEAD~1
-    ac  = !git add -A && git commit
-    sl  = shortlog --summary --numbered
+    ac  = "!git add -A && git c"
+    pf  = push --force-with-lease
+    mn  = merge --no-commit --no-ff
     i   = update-index --assume-unchanged
 	su  = submodule update --init --recursive
     dfs = diff --staged --ws-error-highlight=new,old
     g   = log --oneline --graph --decorate --pretty=custom
     df  = diff --color-words=. --ws-error-highlight=new,old
+    sb  = "!git sh && git plr upstream master && git sp && git pb \"$1\" #"
 
 [color "branch"]
     local = green
