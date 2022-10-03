@@ -36,13 +36,24 @@
     untracked = red reverse
     changed = yellow reverse
 
-[core]
+[delta]
+    light = false
+    navigate = true
+
+[diff]
     abbrev = 12
     editor = hx
+    pager = delta
     excludesfile = ~/.gitignore
 
 [diff "bin"]
     textconv = hexdump -v -C
+
+[interactive]
+    diffFilter = delta --color-only
+
+[merge]
+    conflictstyle = diff3
 
 [pretty]
     custom = "%C(magenta)%h%C(red)%d %C(yellow)%ar %C(green)%s %C(yellow)(%an)"

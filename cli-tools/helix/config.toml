@@ -5,7 +5,9 @@ mouse = false
 rulers = [100]
 true-color = true
 cursorline = true
-line-number = "relative"
+
+[editor.lsp]
+display-messages = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -15,8 +17,23 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
-[editor.lsp]
-display-messages = true
-
 [keys.normal]
-"S-tab" = "jump_backward"
+A-s = ":w"
+A-x = ":bc"
+A-g = "yank"
+C-c = "move_prev_word_start"
+C-C = "move_prev_long_word_start"
+space = { g = "yank_joined_to_clipboard", G = "yank_main_selection_to_clipboard" }
+
+[keys.insert]
+A-x = "normal_mode"
+A-k = "move_line_up"
+A-j = "move_line_down"
+C-c = "move_char_left"
+A-i = "goto_line_start"
+C-a = "kill_to_line_end"
+A-c = "move_prev_word_end"
+C-i = "kill_to_line_start"
+A-l = "delete_word_backward"
+C-l = "delete_char_backward"
+A-a = "goto_line_end_newline"
