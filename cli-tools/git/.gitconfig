@@ -11,7 +11,6 @@
     r   = remote
     co  = checkout
     fp  = fetch -p
-    up  = upstream
     ba  = branch -a
     bd  = branch -d
     bD  = branch -D
@@ -35,12 +34,12 @@
     ac  = "!git add -A && git c"
     pf  = push --force-with-lease
     mn  = merge --no-commit --no-ff
+    pm  = pull --rebase upstream master
     i   = update-index --assume-unchanged
 	su  = submodule update --init --recursive
     dfs = diff --staged --ws-error-highlight=new,old
     g   = log --oneline --graph --decorate --pretty=custom
     df  = diff --color-words=. --ws-error-highlight=new,old
-    sb  = "!git sh && git plr upstream master && git sp && git pb \"$1\" #"
 
 [color "branch"]
     local = green
