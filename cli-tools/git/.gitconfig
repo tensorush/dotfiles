@@ -9,6 +9,7 @@
     rb  = rebase
     rl  = reflog
     r   = remote
+    s   = status
     co  = checkout
     fp  = fetch -p
     ba  = branch -a
@@ -16,16 +17,17 @@
     bD  = branch -D
     sp  = stash pop
     sh  = stash push
-    s   = status -sb
     ap  = add --patch
     cob = checkout -b
     cp  = cherry-pick
     dc  = diff --cached
-    plr = pull --rebase
+    pr  = pull --rebase
     rbs = rebase --skip
     a   = commit --amend
+    pd  = push origin -d
     pb  = push -u origin
     rbi = rebase -i @{u}
+    com = checkout master
     rbc = rebase --continue
     pom = push origin master
     rlc = reset --hard HEAD^
@@ -34,7 +36,7 @@
     ac  = "!git add -A && git c"
     pf  = push --force-with-lease
     mn  = merge --no-commit --no-ff
-    pm  = pull --rebase upstream master
+    prm = pull --rebase upstream master
     i   = update-index --assume-unchanged
 	su  = submodule update --init --recursive
     dfs = diff --staged --ws-error-highlight=new,old

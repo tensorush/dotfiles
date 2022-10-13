@@ -18,9 +18,13 @@ select = "underline"
 hidden = false
 
 [keys.normal]
-A-s = ":w"
+A-q = ":q"
+A-w = ":w"
 A-x = ":bc"
+A-s = ":wq"
 A-g = "yank"
+A-o = ":config-open"
+S-tab = "jump_backward"
 C-c = "move_prev_word_start"
 C-C = "move_prev_long_word_start"
 space = { g = "yank_joined_to_clipboard", G = "yank_main_selection_to_clipboard" }
