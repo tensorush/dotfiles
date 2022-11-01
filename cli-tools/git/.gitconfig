@@ -33,10 +33,11 @@
     rlc = reset --hard HEAD^
     ulc = reset --soft HEAD^
     l   = log --pretty=custom
+    rom = rebase origin master
     ac  = "!git add -A && git c"
+    rum = rebase upstream master
     pf  = push --force-with-lease
     mn  = merge --no-commit --no-ff
-    prm = pull --rebase upstream master
     i   = update-index --assume-unchanged
 	su  = submodule update --init --recursive
     dfs = diff --staged --ws-error-highlight=new,old

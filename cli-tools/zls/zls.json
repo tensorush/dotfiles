@@ -1,11 +1,9 @@
 {
     "warn_style": true,
+    "enable_autofix": true,
     "enable_snippets": true,
-    "enable_inlay_hints": true,
     "skip_std_references": true,
-    "operator_completions": true,
-    "enable_semantic_tokens": true,
     "include_at_in_builtins": true,
-    "enable_ast_check_diagnostics": true,
+    "highlight_global_var_declarations": true,
     "enable_import_embedfile_argument_completions": true
 }
