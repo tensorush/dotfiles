@@ -60,10 +60,15 @@
     untracked = red reverse
     changed = yellow reverse
 
+[commit]
+	gpgsign = true
+
 [core]
+    eol = lf
     abbrev = 12
     editor = hx
     pager = delta
+    autocrlf = false
     excludesfile = ~/.gitignore
 
 [delta]
