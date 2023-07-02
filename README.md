@@ -1,4 +1,4 @@
-# :fire: **My Workstation Dotfiles**
+# :fire: **dotfiles**
 
 <p align="center">
     <img src="https://bleuje.com/gifset/2022/gifs/2022_7_sphereorderdisorder.gif">
