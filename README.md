@@ -1,11 +1,12 @@
-# :fire: **dotfiles**
+## :fire: **dotfiles**
 
-<p align="center">
-    <img src="https://bleuje.com/gifset/2022/gifs/2022_7_sphereorderdisorder.gif">
-</p>
+[![License][license-shield]][license-url]
 
-<h4 align="center">
-    <p><a href="https://twitter.com/etiennejcb/">Animation by Étienne Jacob</a></p>
-</h4>
+### :fireworks: My current workstation dotfiles suitable for multi-platform development.
 
-## :fireworks: My current workstation dotfiles suitable for multi-platform development.
+<!-- MARKDOWN LINKS -->
+
+[cd-shield]: https://img.shields.io/github/actions/workflow/status/tensorush/cv/cd.yaml?branch=main&style=for-the-badge&logo=github&label=Cd&labelColor=black
+[cd-url]: https://github.com/tensorush/cv/blob/main/.github/workflows/cd.yaml
+[license-shield]: https://img.shields.io/github/license/tensorush/cv.svg?style=for-the-badge&labelColor=black
+[license-url]: https://github.com/tensorush/cv/blob/main/LICENSE.md

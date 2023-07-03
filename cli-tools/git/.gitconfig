@@ -4,6 +4,7 @@
     ps  = push
     f   = fetch
     m   = merge
+    cl  = clone
     b   = branch
     c   = commit
     rb  = rebase
@@ -28,10 +29,11 @@
     pb  = push -u origin
     rbi = rebase -i @{u}
     com = checkout master
+    rmc = rm -r --cached .
     rbc = rebase --continue
     pom = push origin master
-    rlc = reset --hard HEAD^
-    ulc = reset --soft HEAD^
+    rch = reset --hard HEAD^
+    rcs = reset --soft HEAD^
     l   = log --pretty=custom
     rom = rebase origin master
     ac  = "!git add -A && git c"
@@ -59,9 +61,6 @@
     added = green reverse
     untracked = red reverse
     changed = yellow reverse
-
-[commit]
-	gpgsign = true
 
 [core]
     eol = lf
@@ -96,5 +95,5 @@
     followTags = true
 
 [user]
-	name = Zhora Trush
+	name = Georgii Trush
 	email = tensorush@gmail.com
