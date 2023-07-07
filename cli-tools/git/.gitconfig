@@ -32,6 +32,7 @@
     rmc = rm -r --cached .
     rbc = rebase --continue
     pom = push origin master
+    pst = push origin --tags
     rch = reset --hard HEAD^
     rcs = reset --soft HEAD^
     l   = log --pretty=custom
@@ -95,5 +96,5 @@
     followTags = true
 
 [user]
-	name = Georgii Trush
+	name = Jora Troosh
 	email = tensorush@gmail.com
