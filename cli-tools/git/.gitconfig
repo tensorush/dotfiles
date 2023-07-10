@@ -78,6 +78,9 @@
 [diff "bin"]
     textconv = hexdump -v -C
 
+[init]
+    defaultBranch = main
+
 [interactive]
     diffFilter = delta --color-only
 
