@@ -24,6 +24,7 @@
     dc  = diff --cached
     pr  = pull --rebase
     rbs = rebase --skip
+    sa  = submodule add
     a   = commit --amend
     pd  = push origin -d
     pb  = push -u origin
@@ -32,7 +33,7 @@
     rmc = rm -r --cached .
     rbc = rebase --continue
     pom = push origin master
-    pst = push origin --tags
+    pt  = push origin --tags
     rch = reset --hard HEAD^
     rcs = reset --soft HEAD^
     l   = log --pretty=custom
@@ -62,6 +63,9 @@
     added = green reverse
     untracked = red reverse
     changed = yellow reverse
+
+[commit]
+    gpgsign = true
 
 [core]
     eol = lf
