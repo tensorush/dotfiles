@@ -2,7 +2,7 @@
 
 [![License][license-shield]][license-url]
 
-### My workstation dotfiles intended for multi-platform development.
+### My workstation dotfiles.
 
 ### :window: [Compositors](compositors)
 
