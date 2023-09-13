@@ -28,7 +28,7 @@
 
 - #### [Oh My Posh](prompts/oh-my-posh)
 
-### :desktop_computer: [Tools](tools)
+### :toolbox: [Tools](tools)
 
 - #### [Git](tools/git)
 
