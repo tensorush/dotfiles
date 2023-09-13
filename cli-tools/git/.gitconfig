@@ -99,8 +99,17 @@
     #                     │        └─ decorations (branch, heads or tags)
     #                     └─ hash (abbreviated)
 
+[pull]
+    ff = only
+
 [push]
     followTags = true
+
+[submodule]
+	recurse = true
+
+[tag]
+    gpgsign = true
 
 [user]
 	name = Jora Troosh
