@@ -32,7 +32,7 @@
 
 - #### [Git](tools/git)
 
-- #### [Helix](tools/hx)
+- #### [Helix](tools/helix)
 
 - #### [GitHub](tools/gh)
 
