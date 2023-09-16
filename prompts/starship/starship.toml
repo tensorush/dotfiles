@@ -1,6 +1,11 @@
 add_newline = false
 command_timeout = 10_000
 
+[battery]
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+
 [git_status]
 conflicted = "  "
 ahead = " 🐇 : ${count} "
